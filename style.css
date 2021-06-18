@@ -1,5 +1,4 @@
 /* Resets */
-
 * {
     margin: 0;
     padding: 0;
@@ -17,8 +16,7 @@ body {
 }
 
 
-/* Inicio - Formatações Gerais */
-
+/* General Formatting */
 .container {
     display: flex;
     justify-content: center;
@@ -73,11 +71,7 @@ button {
 }
 
 
-/* Fim - Formatações Gerais */
-
-
-/* Início - Formatações Específicas */
-
+/* Specif formatting and effects */
 .card1 {
     box-shadow: 10px 10px 80px -30px #9498a3;
 }
@@ -106,11 +100,8 @@ button {
 }
 
 
-/* Fim - Formatações Específicas */
 
-
-/* Início - Breakpoints */
-
+/* Breakpoints */
 @media screen and (max-width: 720px) {
     body {
         height: 100%;
@@ -128,5 +119,3 @@ button {
     }
 }
 
-
-/* Fim - Breakpoints */
